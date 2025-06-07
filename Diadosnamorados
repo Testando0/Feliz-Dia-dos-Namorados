@@ -37,6 +37,15 @@
       0%, 100% { opacity: 0.8; }
       50% { opacity: 0.2; }
     }
+<button onclick="tocarMusica()">Sim</button>
+
+<script>
+  function tocarMusica() {
+    const audio = new Audio('https://www.youtube.com/embed/_87eki_JPT0');
+    audio.loop = true;
+    audio.play();
+  }
+</script>
 
     /* Tela inicial */
     #telaInicial {
