@@ -15,6 +15,16 @@
       background: #000;
     }
 
+<button onclick="tocarMusica()">Sim</button>
+
+<script>
+  function tocarMusica() {
+    const audio = new Audio('https://www.youtube.com/embed/_87eki_JPT0');
+    audio.loop = true;
+    audio.play();
+  }
+</script>
+    
     /* Fundo céu estrelado animado */
     .stars-background {
       position: fixed;
